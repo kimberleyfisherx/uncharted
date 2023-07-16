@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima&family=Gasoek+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Uncharted</a>
+        <!--this is the nav bar name-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="NewFinds.html">New Finds</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="TopRated.html">Top rated</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input id="searchbox" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="submitButton" class="btn btn-outline-success" type="submit" data-bs-toggle="modal" data-bs-target="#searchResultsModal">Search</button> <!--button opens the modal-->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <header class="row"><h1 class="display-1 text-center pt-5 pb-5">Top Rated</h1></header>
+    <!--this is header code-->
+
+    <div class="row">
+      <h1 class="text-center" id="myHeader">
+        This months top rated destinations
+      </h1>
+    </div>
+    <main>
+      <article>
+        <div class="container text-center flex-wrap">
+          <div class="row mb-4">
+            <div class="col-md-4">
+              <div class="card-body">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="media/faro.jpg"
+                        alt="Photograph of Faro beach and boats"
+                        style="width:300px;height:300px;object-fit:cover;"
+                      />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>Portugal</h1>
+                      <h2>Faro</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card-body">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="media/cork.jpg"
+                        alt="Photograph of Cork"
+                        style="width:300px;height:300px;object-fit:cover;"
+                      />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>Ireland</h1>
+                      <h2>Cork</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" href="">
+              <div class="card-body">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="media/blackpool.jpg"
+                        alt="Photograph of Blackpool Tower"
+                        style="width:300px;height:300px;object-fit:cover;"
+                      />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>England</h1>
+                      <h2>Blackpool</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center flex-wrap">
+          <div class="row">
+            <div class="col-md-4" href="">
+              <div class="card-body">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="media/samoens1.jpg"
+                        alt="Photograph of snow covered mountains and ski lift"
+                        style="width:300px;height:300px;object-fit:cover;"
+                      />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>France</h1>
+                      <h2>Samoens</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" href="">
+              <div class="card-body">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Vorobek_Bahamas_-_swimming_pigs.jpg/1200px-Vorobek_Bahamas_-_swimming_pigs.jpg"
+                        alt="Photograph of pigs swimming in the sea"
+                        style="width:300px;height:300px;object-fit:cover;"
+                      />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>Barbados</h1>
+                      <h2>Carlisle Bay</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4" href="">
+              <div class="card-body">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img
+                        src="https://www.schengenvisainfo.com/news/wp-content/uploads/2021/06/ljubljana-Slovenia.jpg"
+                        alt="Photograph of Faro beach and boats"
+                        style="width:300px;height:300px; object-fit:cover;"
+                      />
+                    </div>
+                    <div class="flip-card-back">
+                      <h1>Slovenia</h1>
+                      <h2>Ljubljana</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">
+              We are a travel website dedicated to uncovering hidden gems and
+              secret spots around the world. Our mission is to provide travelers
+              with unique and off-the-beaten-path destinations that are often
+              overlooked but offer incredible experiences.
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="NewFinds.html">New Finds</a></li>
+              <li><a href="TopRated.html">Top Rated</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2023 All Rights Reserved by
+              <a href="#">Uncharted</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Array to store the pages - elements to return results in search bar
+      var items = [
+          {
+              title: "New Finds",
+              link: "NewFinds.html"
+          },
+          {
+              title: "Top Rated",
+              link: "TopRated.html"
+          },
+          {
+              title: "New Posts",
+              link: "NewPosts.html"
+          },
+          {
+              title: "Cork",
+              link: "cork.html"
+          },
+          {
+              title: "Best Getaways",
+              link: "BestGetaways.html"
+          },
+          {
+              title: "Samoens",
+              link: "samoens.html"
+          },
+          {
+              title: "Barbados",
+              link: "barbados.html"
+          }
+          
+      ]
+
+      // Get the Search button - DOM
+      var button = document.getElementById('submitButton');
+      // Add an event listener for when the button is clicked and call the buttonClicked function
+      button.addEventListener("click", buttonClicked);
+
+      function buttonClicked(event) {
+          // preventDefault stops the page from refreshing when the button is clicked
+          event.preventDefault();
+          // Get the searchbox element
+          var searchbox = document.getElementById('searchbox');
+          // Get the text from the searchbox element - what is the value of the searchbox
+          var searchText = searchbox.value;
+          if(!searchText) {
+            outputText = 'No results found!'
+          } else {
+            // Find a matching value in the array of pages - converts searchbox 
+            // value and all of titles being searched to lower case  
+            let result = items.find(o => o.title.toLowerCase().includes(searchText.toLowerCase()));
+            console.log(result)
+    
+            var outputText = '';
+            // Check if a page was found
+            if(result !== undefined) {
+              // Build a link in HTML
+              outputText = outputText + '<a href="' + result.link + '">' + result.title + '</a><br>'
+            } else {
+              // If value searched are not in the array then no results found will show 
+              outputText = 'No results found!'
+            }
+          }
+  
+          // Add the link to the modal or a message showing No results found - pop up
+          document.getElementById('searchResults').innerHTML = outputText;
+      }
+    </script>
+        
+      <!-- Search Results Modal (Hidden by default) -->
+      <div class="modal fade" id="searchResultsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Search Results</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p id="searchResults"></p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Gasoek+One&display=swap" rel="stylesheet">
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Uncharted</a> <!--this is the nav bar name-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="NewFinds.html">New Finds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="TopRated.html">Top rated</a>
+        </ul>
+        <form class="d-flex" role="search">
+          <input id="searchbox" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="submitButton" class="btn btn-outline-success" type="submit" data-bs-toggle="modal" data-bs-target="#searchResultsModal">Search</button> <!--button opens the modal-->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <header> <h1 class="display-1 text-center pt-5 pb-5"> New Finds </h1> </header> <!--this is header code-->
+
+    <body>
+      <h1 class="text-center" id="myHeader">This months New Find</h1>
+        <p class="text-justify" id="cork-para">This month, we set our sights on <strong>Lisbon</strong>, the vibrant capital of Portugal, to unveil a collection of exciting discoveries that will add a fresh perspective to your visit. Join us as we explore new and lesser-known attractions, unique experiences, and off-the-beaten-path delights that will make your trip to Lisbon even more extraordinary. <p>
+
+          <p class="text-justify" id="cork-para"> <u>LX Factory:</u> A Creative Haven in Alcântara
+          Tucked away in the industrial district of Alcântara, LX Factory is a thriving hub of creativity and innovation. Formerly a textile factory, this revitalized space now houses trendy shops, art galleries, design studios, and hip cafes. Explore the maze-like streets adorned with colorful murals, browse through independent boutiques, and soak up the bohemian atmosphere. Don't miss the Ler Devagar bookstore, a book lover's paradise housed in an old printing press.
+          </p>
+          <p class="text-justify" id="cork-para">
+         <u> Mercado de Campo de Ourique:</u> A Gastronomic Wonderland
+          Escape the tourist crowds and immerse yourself in the local food scene at Mercado de Campo de Ourique. This hidden gem is a food lover's paradise, offering an array of stalls selling fresh produce, gourmet delicacies, and mouthwatering street food. Sample traditional Portuguese dishes, indulge in international flavors, and mingle with locals in this lively and authentic market.
+          </p>
+          <div id="carouselExample" class="carousel slide carousel-fade col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F6362f390-2004-11ea-bf0a-65463b7bd0d0.jpg?crop=4950%2C2784%2C0%2C258&resize=1500" class="d-block w-100" alt="Atrani on the Amalfi Coast">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fb6bb7c34-2323-11ea-9a0e-84d50453511a.jpg?crop=3543%2C2362%2C0%2C0&resize=1533" class="d-block w-100" alt="Guaita Tower in San Marino">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.traveldepartment.com/media/22482/visit-lisbon-on-guided-break.jpg?anchor=center&mode=crop&width=800&height=500&rnd=132380922250000000" class="d-block w-100" alt="Lisbon Government Building">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="text-justify" id="cork-para">
+          <u>Miradouro da Senhora do Monte:</u> Panoramic Views from the Highest Point
+          For breathtaking vistas of Lisbon's rooftops and the Tagus River, head to Miradouro da Senhora do Monte. Situated in the Graça neighborhood, this hidden viewpoint offers a tranquil escape from the bustling city below. Grab a seat on one of the benches, take in the panoramic scenery, and witness the golden hues of the sunset painting the skyline.
+          </p>
+          <p class="text-justify" id="cork-para">
+          <u>Bike Tour along the Tagus River:</u> Explore Lisbon on Two Wheels
+          Discover Lisbon's hidden corners and waterfront beauty on a bike tour along the Tagus River. Pedal through charming neighborhoods, pass by historic landmarks, and soak up the refreshing sea breeze. With knowledgeable guides leading the way, you'll uncover secret spots and local insights while enjoying a fun and active exploration of the city.
+          </p>
+          <p class="text-justify" id="cork-para">
+          <u>Museu Nacional do Azulejo:</u> A Journey Through Portuguese Tile Art
+          Step into the world of Portuguese tile art at the Museu Nacional do Azulejo. Housed in a former convent, this museum showcases a stunning collection of decorative tiles dating back to the 15th century. Marvel at intricate patterns, vibrant colors, and historical narratives depicted on the tiles. The museum also offers workshops where you can create your own tile masterpiece.
+          </p>
+          <p class="text-justify" id="cork-para">
+          Lisbon continues to enchant visitors with its timeless beauty and vibrant spirit, but there's always something new to discover. From the creative haven of LX Factory to the gastronomic wonders of Mercado de Campo de Ourique, these hidden gems provide fresh perspectives on Portugal's capital city. Embark on a journey of exploration, embrace the unknown, and let these new finds in Lisbon unveil the city's hidden depths. Join us next month as we unveil another exciting destination for your wanderlust.</p>
+          
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify"> We are a travel website dedicated to uncovering hidden gems and secret spots around the world. Our mission is to provide travelers with unique and off-the-beaten-path destinations that are often overlooked but offer incredible experiences.</p>
+          </div>
+  
+      
+  
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="NewFinds.html">New Finds</a></li>
+              <li><a href="TopRated.html">Top Rated</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+         <a href="#">Hidden Gems</a>.
+            </p>
+          </div>
+  
+         
+        </div>
+      </div>
+  </footer> 
+  <script>
+    // Array to store the pages - elements to return results in search bar
+    var items = [
+        {
+            title: "New Finds",
+            link: "NewFinds.html"
+        },
+        {
+            title: "Top Rated",
+            link: "TopRated.html"
+        },
+        {
+            title: "New Posts",
+            link: "NewPosts.html"
+        },
+        {
+            title: "Cork",
+            link: "cork.html"
+        },
+        {
+            title: "Best Getaways",
+            link: "BestGetaways.html"
+        },
+        {
+            title: "Samoens",
+            link: "samoens.html"
+        },
+        {
+            title: "Barbados",
+            link: "barbados.html"
+        }
+        
+    ]
+
+  // Get the Search button - DOM
+  var button = document.getElementById('submitButton');
+  // Add an event listener for when the button is clicked and call the buttonClicked function
+  button.addEventListener("click", buttonClicked);
+
+  function buttonClicked(event) {
+          // preventDefault stops the page from refreshing when the button is clicked
+          event.preventDefault();
+          // Get the searchbox element
+          var searchbox = document.getElementById('searchbox');
+          // Get the text from the searchbox element - what is the value of the searchbox
+          var searchText = searchbox.value;
+          if(!searchText) {
+            outputText = 'No results found!'
+          } else {
+            // Find a matching value in the array of pages - converts searchbox 
+            // value and all of titles being searched to lower case  
+            let result = items.find(o => o.title.toLowerCase().includes(searchText.toLowerCase()));
+            console.log(result)
+    
+            var outputText = '';
+            // Check if a page was found
+            if(result !== undefined) {
+              // Build a link in HTML
+              outputText = outputText + '<a href="' + result.link + '">' + result.title + '</a><br>'
+            } else {
+              // If value searched are not in the array then no results found will show 
+              outputText = 'No results found!'
+            }
+          }
+  
+          // Add the link to the modal or a message showing No results found - pop up
+          document.getElementById('searchResults').innerHTML = outputText;
+      }
+</script>
+    
+  <!-- Search Results Modal (Hidden by default) -->
+  <div class="modal fade" id="searchResultsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Search Results</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p id="searchResults"></p>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!-- Bootstrap Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</html>
